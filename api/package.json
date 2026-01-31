@@ -1,0 +1,7 @@
+{
+  "name": "munai-backend",
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
