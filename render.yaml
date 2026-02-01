@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: munai-backend
+    env: node
+    branch: main  # o 'master', depende de tu rama principal
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: OPENAI_API_KEY
+        value: your-openai-api-key  # Aquí agrega tu API Key de OpenAI
